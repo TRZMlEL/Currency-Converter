@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="w-screen h-screen bg-background">
+    <main class="w-screen h-screen flex items-center justify-center">
+        <div class="w-96 h-5/6 flex items-center justify-center flex-col bg-green-900 rounded-3xl text-text bg-accent text-2xl">
+            <div><h1 class="text-3xl mb-5">Currency Converter</h1></div>
+            <div>
+                <input id="fromInput" type="number" placeholder="From" class="bg-secondary rounded-md">
+                <select id="fromCurrency" class="bg-secondary rounded-md">
+                    <option>PLN</option>
+                    <option>EUR</option>
+                    <option>USD</option>
+                    <option>AUD</option>
+                    <option>BGN</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CHF</option>
+                    <option>CNY</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HKD</option>
+                    <option>HRK</option>
+                    <option>HUF</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>ISK</option>
+                    <option>JPY</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NOK</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>RON</option>
+                    <option>RUB</option>
+                    <option>SEK</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>TRY</option>
+                    <option>ZAR</option>
+                </select>
+            </div>
+            <div>
+                <input id="toInput" type="number" placeholder="To" readonly class="bg-secondary rounded-md">
+                <select id="toCurrency" class="bg-secondary rounded-md">
+                    <option>PLN</option>
+                    <option>EUR</option>
+                    <option>USD</option>
+                    <option>AUD</option>
+                    <option>BGN</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CHF</option>
+                    <option>CNY</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HKD</option>
+                    <option>HRK</option>
+                    <option>HUF</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>ISK</option>
+                    <option>JPY</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NOK</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>RON</option>
+                    <option>RUB</option>
+                    <option>SEK</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>TRY</option>
+                    <option>ZAR</option>
+                </select>
+            </div>
+            <div><button id="convert" class="h-10 w-40 bg-primary mt-5 rounded-lg shadow-md">CONVERT</button></div>
+        </div>
+    <script src="CC.js"></script>
+    <script src="https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_EPuTp44U5lcBUCpwnfCtYenOK4kh5tSqANzEk2Kc"></script>
+</body>
+</html>
