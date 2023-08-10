@@ -1,4 +1,5 @@
-###Currency Converter
+##Currency Converter
+
 A simple currency converter with a list of currencies and their abbreviations.
 
 | Abbreviation | Full Name                      |
