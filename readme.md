@@ -1,6 +1,6 @@
 # Currency Converter
 
-** A simple currency converter
+A simple currency converter
 
 List of currencies and their abbreviations:
 
