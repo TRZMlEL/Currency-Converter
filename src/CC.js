@@ -49,10 +49,10 @@ convert.addEventListener('click', () => {
   toCurrencyValue = toCurrency.options[toCurrency.selectedIndex].value;
   toInput.value = '';
   freecurrencyapi.latest({
-    base_currency: toCurrencyValue,
-    currencies: fromCurrencyValue
+    base_currency: fromCurrencyValue,
+    currencies: toCurrencyValue
   }).then(response => {
-    newValue = fromInput*response.data[fromCurrencyValue];
+    newValue = fromInput*response.data[toCurrencyValue];
     newValue = (newValue).toFixed(2)
     toInput.value = newValue;
   });

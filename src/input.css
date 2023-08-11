@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    background: #161504;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1f1e05;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e8e478;
+    border-radius: 10px;
+}
+
+/* 'text': '#fcfcee',
+'background': '#1f1e05',
+'primary': '#e8e478',
+'secondary': '#161504',
+'accent': '#c4bf21', */
