@@ -37,9 +37,9 @@ class Freecurrencyapi {
 
 };const freecurrencyapi = new Freecurrencyapi('fca_live_EPuTp44U5lcBUCpwnfCtYenOK4kh5tSqANzEk2Kc');
 
-let convert = document.querySelector("#convert")
-let fromCurrency = document.querySelector("#fromCurrency")
-let toCurrency = document.querySelector("#toCurrency")
+let convert = document.querySelector("#convert");
+let fromCurrency = document.querySelector("#fromCurrency");
+let toCurrency = document.querySelector("#toCurrency");
 let toInput = document.querySelector("#toInput");
 let fromCurrencyValue, toCurrencyValue, fromInput, newValue;
 
